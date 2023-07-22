@@ -23,6 +23,8 @@ release/
 # For Cargo versions 1.39 and above
 /home/
 /target/
+target/
+.rustc_info.json
 # For Cargo versions below 1.39
 /*.rs.bk
 
