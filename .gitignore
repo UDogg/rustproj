@@ -1,0 +1,40 @@
+# Rust/Cargo specific ignores
+target/
+Cargo.lock
+
+# IDE-specific ignores (optional, adjust as needed)
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Build artifacts
+debug/
+release/
+
+# Editor-specific files
+*.swp
+*.swo
+*~
+*.bak
+
+# Dependency directories
+# For Cargo versions 1.39 and above
+/home/
+/target/
+# For Cargo versions below 1.39
+/*.rs.bk
+
+# macOS specific files
+.DS_Store
+
+# Ubuntu specific files
+*~
+
+# Visual Studio Code specific files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
