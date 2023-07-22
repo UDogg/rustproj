@@ -1,0 +1,12 @@
+[package]
+name = "rustproj"
+version = "0.1.0"
+authors = ["Utkarsh Choudhary <choudharyu2003@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rand = "0.8.4"
+
+[[bin]] 
+name = "my_app" 
+path = "./main.rs" 
